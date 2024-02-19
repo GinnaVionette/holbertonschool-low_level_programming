@@ -1,2 +1,6 @@
 int main (void)
-int puts("Programming is like building a multilingual puzzle str); | return 0;
+{
+char* str1 = "Programming is like building a multilingual puzzle";
+puts(str1);
+return 0;
+}
