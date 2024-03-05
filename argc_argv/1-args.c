@@ -2,21 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - prints number of arguments received
+ * main - prints number of arguments passed
  * @argc: int
  * @argv: char*
  *
  * Return: Always 0
  */
-
 int main(int argc, char *argv[])
 {
-	int b = 0;
+	(void)argv;
 
-	for (b = 0; b < argc; b++)
-	{
-		printf("%s\n", argv[b]);
-	}
-
+	printf("%d\n", argc - 1);
 	return (0);
 }
