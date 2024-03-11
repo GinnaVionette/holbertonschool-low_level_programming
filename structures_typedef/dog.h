@@ -1,7 +1,5 @@
-#include "main.c"
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
+#ifndef DOG
+#define DOG
 
 /**
  * struct dog - dog data
@@ -9,11 +7,13 @@
  * @age: dog age
  * @owner: dog owner
  *
- * Return: dpg
+ * Return: dog data
  */
 typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
+} dog_t;
+
+#endif
